@@ -47,7 +47,7 @@ include-before:
 
     **本译本**
 
-    - LaTeX 排版与翻译：WWW.ifpaperlab.com
+    - 排版工具：ifpaperlab.com
     - 译者：北航 控制科学与工程博士 晏一夫　Yanyifu633@buaa.edu.cn
     - 用途：仅供个人学习与研究，不作任何商业用途
     - 许可：本译本以相同协议（CC BY-NC-SA 4.0）提供
@@ -76,7 +76,7 @@ header-includes:
     % 注意：\\ 不能写进嵌套花括号内——\maketitle 会把作者放进 tabular，
     % 而分组会破坏 tabular 的换行处理，导致 "Missing } inserted"。
     \AtBeginDocument{%
-      \author{Nathan Lambert \\[0.8em] \normalsize 翻译人：北航 控制科学与工程博士 晏一夫 \\ Yanyifu633@buaa.edu.cn \\[0.4em] \small LaTeX 排版与翻译：WWW.ifpaperlab.com}%
+      \author{Nathan Lambert \\[0.8em] \normalsize 翻译人：北航 控制科学与工程博士 晏一夫 \\ Yanyifu633@buaa.edu.cn \\[0.4em] \small 排版工具：ifpaperlab.com}%
     }
     % 表格稳定性
     \usepackage{array}

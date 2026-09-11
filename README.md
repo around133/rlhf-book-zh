@@ -98,8 +98,8 @@ cd rlhf-book
 
 | | |
 |---|---|
-| LaTeX 排版与翻译 | [WWW.ifpaperlab.com](https://www.ifpaperlab.com) |
 | 译者 | 北航 控制科学与工程博士 晏一夫　`Yanyifu633@buaa.edu.cn` |
+| 排版工具 | [ifpaperlab.com](https://www.ifpaperlab.com) |
 
 排版方面，正文采用宋体、标题采用黑体，数学公式与英文沿用原文的 Latin Modern 字体；
 图表编号与公式引用均做了中文化（「图 1」「表 1」「见式 1」），每章另起一页，
