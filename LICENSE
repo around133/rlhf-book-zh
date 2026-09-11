@@ -1,0 +1,47 @@
+本仓库包含两类内容，适用不同许可。
+
+────────────────────────────────────────────────────────────
+1. 译文内容（chapters/ 目录、rlhf-book-zh.pdf、rlhf-book-zh.docx）
+────────────────────────────────────────────────────────────
+
+Reinforcement Learning from Human Feedback
+Copyright (c) 2025-2026 Nathan Lambert
+Licensed under CC BY-NC-SA 4.0
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+中文译文为原文的改编作品，同样以 CC BY-NC-SA 4.0 提供：
+
+  - 署名（BY）：须注明原作者 Nathan Lambert 与原文出处 https://rlhfbook.com
+  - 非商业性使用（NC）：不得用于任何商业目的
+  - 相同方式共享（SA）：若基于本译文再创作，须以相同协议发布
+
+译文未改动原文的技术内容、公式、图表编号与引用；
+全部著作权利归原作者 Nathan Lambert 所有。
+
+本译本为非官方翻译，与原作者及出版方（Manning）无隶属关系。
+
+────────────────────────────────────────────────────────────
+2. 构建脚本（build.ps1、tools/ 目录下的 Python 脚本）
+────────────────────────────────────────────────────────────
+
+MIT License
+
+Copyright (c) 2026 Yanyifu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

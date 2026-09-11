@@ -1,0 +1,88 @@
+---
+title: 基于人类反馈的强化学习
+subtitle: 面向语言模型的后训练 RLHF 简明指南
+seo-title: "RLHF 中文版：基于人类反馈的强化学习与语言模型后训练"
+description: "一本关于 RLHF、偏好微调、奖励模型、RLVR 与语言模型后训练的免费中文译本。"
+canonical-url: "https://rlhfbook.com/"
+biblio-title: 参考文献
+reference-section-title: 参考文献
+# 目录标题（模板用 \renewcommand*\contentsname 应用）
+toc-title: 目录
+author: Nathan Lambert
+translator-note: 个人学习用中文译本
+rights: CC-BY-NC-SA-4.0
+# 中文字体：正文宋体，粗体黑体，斜体楷体
+CJKmainfont: SimSun
+CJKoptions:
+  - BoldFont=SimHei
+  - ItalicFont=KaiTi
+# 英文部分保持与原文一致的衬线字体
+mainfont: Latin Modern Roman
+mainfontoptions:
+  - Ligatures=TeX
+# 图表在正文与标题里使用中文名称
+figureTitle: 图
+tableTitle: 表
+figPrefix: 图
+tblPrefix: 表
+eqnPrefix: 式
+Filter preferences:
+  - pandoc-crossref
+# 版权与许可页：插在标题页之后、目录之前（模板中 include-before 的位置）
+include-before:
+  - |
+    ```{=latex}
+    \newpage
+    ```
+
+    **版权与许可**
+
+    **原文**
+
+    - 书名：*Reinforcement Learning from Human Feedback*
+    - 作者：Nathan Lambert
+    - 网址：https://rlhfbook.com
+    - 许可：CC BY-NC-SA 4.0（署名 — 非商业性使用 — 相同方式共享）
+      <https://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+    **本译本**
+
+    - 译者：北航 控制科学与工程博士 晏一夫　Yanyifu633@buaa.edu.cn
+    - 用途：仅供个人学习与研究，不作任何商业用途
+    - 许可：本译本以相同协议（CC BY-NC-SA 4.0）提供
+    - 说明：译文未改动原文的技术内容、公式、图表编号与引用；著作权利归原作者 Nathan Lambert 所有
+    - 依据版本：英文版 v0.11 及仓库主分支
+
+    本译本为非官方翻译，与原作者及出版方无隶属关系。
+
+geometry:
+  - margin=1.35in
+linkReferences: true
+link-citations: true
+numbersections: true
+header-includes:
+  - |
+    ```{=latex}
+    % 每章另起一页
+    \pretocmd{\section}{\newpage}{}{}
+    % 中文字距与行距微调
+    \linespread{1.12}
+    % 页脚：左站点名，中译者署名，右页码（覆盖模板默认的两栏页脚）
+    \fancyfoot[L]{\small\textcolor{gray}{rlhfbook.com}}
+    \fancyfoot[C]{\small\textcolor{gray}{翻译人：北航 控制科学与工程博士 晏一夫\quad Yanyifu633@buaa.edu.cn}}
+    \fancyfoot[R]{\small\textcolor{gray}{\thepage}}
+    % 标题页在作者名下追加译者署名
+    % 注意：\\ 不能写进嵌套花括号内——\maketitle 会把作者放进 tabular，
+    % 而分组会破坏 tabular 的换行处理，导致 "Missing } inserted"。
+    \AtBeginDocument{%
+      \author{Nathan Lambert \\[0.8em] \normalsize 翻译人：北航 控制科学与工程博士 晏一夫 \\ Yanyifu633@buaa.edu.cn}%
+    }
+    % 表格稳定性
+    \usepackage{array}
+    \newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1\textwidth}}
+    % Pandoc 3.8.x + longtable (<4.21) 的无标题长表兼容处理
+    \makeatletter
+    \@ifundefined{c@none}{\newcounter{none}}{}%
+    \makeatother
+    ```
+---

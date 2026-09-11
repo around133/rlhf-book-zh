@@ -1,0 +1,11 @@
+---
+# 仅用于 DOCX 构建的覆盖项。
+# DOCX 走 Word 的样式体系，不需要 LaTeX 的字体/几何/header-includes 设置；
+# 这里只把作者改成「原作者 + 译者」两行，让标题块显示译者署名。
+author:
+  - Nathan Lambert
+  - 翻译人：北航 控制科学与工程博士 晏一夫
+  - Yanyifu633@buaa.edu.cn
+# 目录标题（pandoc 的 docx 写出器默认写 "Table of Contents"）
+toc-title: 目录
+---
