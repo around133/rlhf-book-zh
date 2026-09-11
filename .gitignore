@@ -5,6 +5,9 @@ build/
 *.out
 *.toc
 
+# Word 版不在仓库发布（仅本地生成）
+rlhf-book-zh.docx
+
 # 系统文件
 .DS_Store
 Thumbs.db

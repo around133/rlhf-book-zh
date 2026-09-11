@@ -7,10 +7,7 @@ Nathan Lambert《Reinforcement Learning from Human Feedback》的中文译本。
 
 ## 下载
 
-| 文件 | 说明 |
-|---|---|
-| **[rlhf-book-zh.pdf](rlhf-book-zh.pdf)** | 全书 PDF，204 页，12 MB |
-| **[rlhf-book-zh.docx](rlhf-book-zh.docx)** | Word 版，12 MB |
+- **[rlhf-book-zh.pdf](rlhf-book-zh.pdf)** —— 全书 PDF，204 页，12 MB
 
 ## 原文
 
